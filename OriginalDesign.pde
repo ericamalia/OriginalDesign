@@ -1,11 +1,14 @@
 void setup()
 {
-  size(100,100);
+  size(500,500);
 }
 void draw()
 {
-  ellipse(50,50,50,50);
+  
 }
 
-
+void paper () {
+	fill (random(0,255), random(0,255), random (0,255));
+	rect (250,250,100,100);
+}
 
