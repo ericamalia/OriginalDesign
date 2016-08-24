@@ -7,6 +7,7 @@ void draw()
   background(128, 0, 0);
   outline();
   screen1 ();
+  charger ();
 }
 
 void outline(){
@@ -31,7 +32,14 @@ void screen1 () {
 void screen2 () {
 
 }
-
+int chargeXPos = 253;
+int chargeYPos = 340;
 void charger () {
+	fill(161, 140, 21);
+	rect(chargeXPos+1.7,chargeYPos+10,9,11);
+	fill(255);
+	noStroke();
+	rect(chargeXPos,chargeYPos+20,13,16);
+	rect(chargeXPos+2.5,chargeYPos+36,8,200);
 	
 }
