@@ -11,7 +11,7 @@ void draw()
   screen1 ();
 
 
-  	if (chargeYPos <= 340) {
+  	if (chargeYPos <= 320) {
   		screen2 ();
   	}
 
@@ -41,7 +41,7 @@ void screen1 () {
 void screen2 () {
 	fill(255);
 	textSize(20);
-	text ("10:11!", 230,190);
+	text ("10:11", 230,190);
 	fill(88, 220, 32 );
 	noStroke();
 	rect( 232,210, 49,18);
