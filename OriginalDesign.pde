@@ -1,7 +1,7 @@
 void setup()
 {
   size(500,500);
- 
+
 }
 void draw()
 {
@@ -9,13 +9,12 @@ void draw()
   charger ();
   outline();
   screen1 ();
-  
 
-  	if (chargeYPos <= 370) {
+
+  	if (chargeYPos <= 340) {
   		screen2 ();
-
   	}
-  
+
 }
 
 void outline(){
@@ -42,7 +41,7 @@ void screen1 () {
 void screen2 () {
 	fill(255);
 	textSize(20);
-	text ("10:11", 230,190);
+	text ("10:11!", 230,190);
 	fill(88, 220, 32 );
 	noStroke();
 	rect( 232,210, 49,18);
@@ -61,9 +60,8 @@ void charger () {
 	noStroke();
 	rect(chargeXPos,chargeYPos+20,13,16);
 	rect(chargeXPos+2.5,chargeYPos+36,8,200);
-	
+
 }
 void mousePressed() {
 	chargeYPos -= 15;
 }
-
