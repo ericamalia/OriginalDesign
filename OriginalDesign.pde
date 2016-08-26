@@ -1,7 +1,6 @@
 void setup()
 {
   size(500,500);
-  textFont ("Helvetica Neue");
 
 }
 void draw()
@@ -14,10 +13,7 @@ void draw()
 
   	if (chargeYPos <= 320) {
   		screen2 ();
-      if mousePressed() {
-        chargeYPos += 15;
-      }
-  	}
+    }
 
 }
 
