@@ -67,7 +67,7 @@ void mousePressed() {
   if (chargeYPos >= 320) {
     chargeYPos -= 15;
   }
-	else {
-    chargeYPos += 15; 
+	else{
+    chargeYPos += 200; 
   }
 }
