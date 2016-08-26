@@ -13,10 +13,7 @@ void draw()
 
   	if (chargeYPos <= 320) {
   		screen2 ();
-      
-      void mousePressed() {
-      	chargeYPos += 15;
-      }
+
   	}
 
 }
