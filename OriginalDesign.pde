@@ -11,7 +11,7 @@ void draw()
   screen1 ();
 
 
-  	if (chargeYPos <= 320) {
+  	if (chargeYPos <= 330) {
   		screen2 ();
     }
 
@@ -64,10 +64,10 @@ void charger () {
 }
 
 void mousePressed() {
-  if (chargeYPos >= 320) {
+  if (chargeYPos >= 330) {
     chargeYPos -= 15;
   }
 	else{
-    chargeYPos += 200; 
+    chargeYPos += 200;
   }
 }
